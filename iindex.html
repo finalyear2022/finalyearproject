@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>e-Voting</title>
+    <link rel="icon" href="/assets/images/logo.jpg">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="header-image">
+        <img src="/assets/images/header.png" alt="header" height="166px" width="871px" >
+    </div>
+    <div class="login-form"> 
+        <body>
+            <form class="container" action="process.php" method="post">
+                <h1 class="heading">WELCOME TO ONLINE VOTING !</h1><br>
+                <p>Your Name:</p>
+                <input type="text" name="name" placeholder="Enter Your Name" required>
+                <p>Roll No:</p>
+                <input type="text" name="roll no" id="roll no" placeholder="Enter Your Roll no " required>
+                <p>Trade:</p>
+                <select id="Trade" name="Trade" >
+                    <option>Select Your Trade</option>
+                    <option value="C">CSE</option>
+                    <option value="M">Mech</option>  
+                    <option value="E">ECE</option>
+                    
+                </select>
+                <input type="submit" value="Submit &#8594;">
+            </form>
+        </body>
+        
+        </html>
+    </div>
+</body>
+</html>
